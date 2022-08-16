@@ -71,6 +71,6 @@ module.exports = {
                 id: result._id,
                 token
             }
-        }
+        },
     }
 }
