@@ -13,6 +13,8 @@ import Login from './pages/Login';
 import MenuBar from './components/MenuBar';
 
 import AuthRoute from './util/AuthRoute';
+import SinglePost from './pages/SinglePost';
+
 
 function App() {
   return (
@@ -28,6 +30,7 @@ function App() {
             <Route exact path='/login' element={<AuthRoute />}>
               <Route exact path='/login' element={<Login />} />
             </Route>
+            <Route exact path='/posts/:postId' element={<SinglePost />} />
           </Routes>
         </Container>
       </Router>
