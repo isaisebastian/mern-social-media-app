@@ -50,7 +50,7 @@ function SinglePost(props) {
                 <Grid.Row>
                     <Grid.Column width={2}>
                         <Image 
-                            src='https://react.semantic-ui.com/images/avatar/large/molly.png'
+                            src={`https://robohash.org/${id}?200x200`}
                             size='small'
                             float='right'
                         />
