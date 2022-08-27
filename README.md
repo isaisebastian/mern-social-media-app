@@ -10,7 +10,9 @@ To use the application, simply **Register** a new account and post a new message
 
 ## Live view 
 
-[Demo of the project](https://eclectic-daifuku-e4fa37.netlify.app/) 
+[Demo of the project](https://eclectic-daifuku-e4fa37.netlify.app/) \
+
+If '*Loading posts..*', please refresh the page. 
 
 ## Get the code 
 
